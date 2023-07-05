@@ -1,0 +1,79 @@
+.mainForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 100vh;
+    padding-top: 12px;
+    width: 100%;
+  }
+
+
+  
+  .form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form-container .form-group label {
+    font-weight: bold;
+  }
+
+  .form-container .btn {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .form-container .form-check {
+    margin-top: 20px;
+  }
+
+
+  .banner {
+    position: relative;
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as per your requirement */
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner-content .btn {
+    font-size: 16px;
+}
+
